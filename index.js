@@ -28,7 +28,7 @@ app.get('/news/:query', async (req, res) => {
     res.json(news);
   } catch (error) {
     console.error(error);
-    res.status(500).send('Server error');
+    res.status(500).send('Server error yo', error);
   }
 });
 
