@@ -27,7 +27,7 @@ app.get('/news/:query', async (req, res) => {
     const news = response.data.articles;
     res.json(news);
   } catch (error) {
-    console.error(error, `https://newsapi.org/v2/${req.params.query}&apiKey=${process.env.NEWS_API_KEY}`);
+    console.error(error);
     res.status(500).send('Server error');
   }
 });
