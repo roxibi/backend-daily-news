@@ -1,4 +1,5 @@
 # backend-daily-news
 
 deployed on:
-https://rich-blue-hatchling-sari.cyclic.app/
+https://my-daily-news-backend.cyclic.app/
+frontend running on: https://my-daily-news.netlify.app/
